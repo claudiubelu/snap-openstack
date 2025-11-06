@@ -143,7 +143,7 @@ parts:
   terraform-openstack-plan:
     after: [terraform]
     plugin: dump
-    source: https://github.com/canonical/sunbeam-terraform
+    source: https://github.com/claudiubelu/sunbeam-terraform
     source-depth: 1
     source-type: git
     organize:
